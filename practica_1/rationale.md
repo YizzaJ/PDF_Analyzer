@@ -4,7 +4,7 @@
 
 World Academy of Science, Engineering and Technology
 
-**Number of figures found:** 2
+*Number of figures found:* 2
 
 **Links found:**
 
@@ -24,7 +24,7 @@ zona estuarina
 Venezuela
 
 
-**Number of figures found:** 7
+*Number of figures found:* 7
 
 **Links found:**
 
@@ -42,7 +42,7 @@ the United States
 factors
 
 
-**Number of figures found:** 0
+*Number of figures found:* 0
 
 **Links found:**
 
@@ -61,7 +61,7 @@ Latin America
 Spain
 
 
-**Number of figures found:** 14
+*Number of figures found:* 14
 
 **Links found:**
 
@@ -70,9 +70,9 @@ Spain
 
 ## For file: ../pdfs/output/4571632-Nanotechnology.tei.xml
 
-**Keywords:** No keywords found.
+*Keywords:* No keywords found.
 
-**Number of figures found:** 3
+*Number of figures found:* 3
 
 **Links found:**
 
@@ -81,9 +81,9 @@ Spain
 
 ## For file: ../pdfs/output/4673057-European-food-safety.tei.xml
 
-**Keywords:** No keywords found.
+*Keywords:* No keywords found.
 
-**Number of figures found:** 1
+*Number of figures found:* 1
 
 **Links found:**
 
@@ -92,9 +92,9 @@ Spain
 
 ## For file: ../pdfs/output/4836450-Agriculture.tei.xml
 
-**Keywords:** No keywords found.
+*Keywords:* No keywords found.
 
-**Number of figures found:** 12
+*Number of figures found:* 12
 
 **Links found:**
 
@@ -171,7 +171,7 @@ Spain
 
 Apple, Steve Jobs and iPhone
 
-**Number of figures found:** 2
+*Number of figures found:* 2
 
 **Links found:**
 
@@ -197,7 +197,7 @@ Militarism World War
 Assassination
 
 
-**Number of figures found:** 1
+*Number of figures found:* 1
 
 **Links found:**
 
@@ -216,7 +216,7 @@ Fasting
 Skyscraper
 
 
-**Number of figures found:** 6
+*Number of figures found:* 6
 
 **Links found:**
 
