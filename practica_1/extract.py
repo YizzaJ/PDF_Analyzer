@@ -11,7 +11,7 @@ def get_links(soup):
    return soup.find_all("ptr")
 
 directory_path = '../pdfs/output/'
-output_file = 'rationale.md'
+output_file = '../rationale.md'
 
 if os.path.exists(output_file):
     os.remove(output_file)
