@@ -1,19 +1,19 @@
-## For file: ../pdfs/output/1123626-Small-Engine.tei.xml
+## For file: 1123626-Small-Engine.tei.xml
 
-**Keywords:**
+Keywords:
 
 World Academy of Science, Engineering and Technology
 
-*Number of figures found:* 2
+Number of figures found 2
 
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/160541-Rivers-Venezuela.tei.xml
+## For file: 160541-Rivers-Venezuela.tei.xml
 
-**Keywords:**
+Keywords:
 
 
 Contamination
@@ -24,16 +24,16 @@ zona estuarina
 Venezuela
 
 
-*Number of figures found:* 7
+Number of figures found 7
 
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/3756278-Vietnam-war.tei.xml
+## For file: 3756278-Vietnam-war.tei.xml
 
-**Keywords:**
+Keywords:
 
 
 Vietnam War
@@ -42,16 +42,16 @@ the United States
 factors
 
 
-*Number of figures found:* 0
+Number of figures found 0
 
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/3958006-Prosperity-Spain-Latin-America.tei.xml
+## For file: 3958006-Prosperity-Spain-Latin-America.tei.xml
 
-**Keywords:**
+Keywords:
 
 
 Development
@@ -61,42 +61,42 @@ Latin America
 Spain
 
 
-*Number of figures found:* 14
+Number of figures found 14
 
-0 ** Links found:**
-
-
----
-
-## For file: ../pdfs/output/4571632-Nanotechnology.tei.xml
-
-*Keywords:* No keywords found.
-
-*Number of figures found:* 3
-
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/4673057-European-food-safety.tei.xml
+## For file: 4571632-Nanotechnology.tei.xml
 
-*Keywords:* No keywords found.
+No keywords found.
 
-*Number of figures found:* 1
+Number of figures found 3
 
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/4836450-Agriculture.tei.xml
+## For file: 4673057-European-food-safety.tei.xml
 
-*Keywords:* No keywords found.
+No keywords found.
 
-*Number of figures found:* 12
+Number of figures found 1
 
-64 ** Links found:**
+0 Links found:
+
+
+---
+
+## For file: 4836450-Agriculture.tei.xml
+
+No keywords found.
+
+Number of figures found 12
+
+64 Links found:
 
 - http://www.eaap.org/publications/eaap-scientific-series/
 - https://doi.org/10.1016/
@@ -165,15 +165,15 @@ Spain
 
 ---
 
-## For file: ../pdfs/output/6624395-Iphone.tei.xml
+## For file: 6624395-Iphone.tei.xml
 
-**Keywords:**
+Keywords:
 
 Apple, Steve Jobs and iPhone
 
-*Number of figures found:* 2
+Number of figures found 2
 
-9 ** Links found:**
+9 Links found:
 
 - https://time.com/4628515/steve-jobs-iphone-launch-keynote-2007/
 - https://www.fool.com/investing/2018/01/25/apple-has-a-new-enterprise-partner.aspx
@@ -187,9 +187,9 @@ Apple, Steve Jobs and iPhone
 
 ---
 
-## For file: ../pdfs/output/7258954-World-war-I.tei.xml
+## For file: 7258954-World-war-I.tei.xml
 
-**Keywords:**
+Keywords:
 
 
 Imperialism Nationalism
@@ -197,16 +197,16 @@ Militarism World War
 Assassination
 
 
-*Number of figures found:* 1
+Number of figures found 1
 
-0 ** Links found:**
+0 Links found:
 
 
 ---
 
-## For file: ../pdfs/output/7664084-Burj-Khalifa.tei.xml
+## For file: 7664084-Burj-Khalifa.tei.xml
 
-**Keywords:**
+Keywords:
 
 
 Time Zones
@@ -216,9 +216,9 @@ Fasting
 Skyscraper
 
 
-*Number of figures found:* 6
+Number of figures found 6
 
-6 ** Links found:**
+6 Links found:
 
 - https://www.astroawani.com/berita-dunia/time-berbuka-puasa-di-burj-khalifa-berbeza-ikut-level-207345
 - https://esalah.com/places/united-arab-emirates/united-arab-emirates/dubai/masjids/burj-khalifa-mosque/
