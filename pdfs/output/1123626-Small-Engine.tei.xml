@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E51DA70A67EF64D9EECD749216464184</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2023-02-22T10:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>World Academy of Science, Engineering and Technology</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.22" lry="842.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><formula xml:id="formula_0" coords="4,45.50,387.90,501.32,280.68">V V n V V n V v V v A v A P v gh h P h g h Q K A t Q K A t</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,47.00,815.54,233.30,7.20;3,350.00,815.54,127.10,7.20;3,24.54,601.12,7.20,40.88;3,24.54,574.24,7.20,24.88;3,24.54,552.02,7.20,20.22;3,24.54,512.70,7.20,37.32;3,24.54,499.15,7.20,11.55;3,24.54,453.61,7.20,43.54;3,24.54,412.50,7.20,39.10;3,24.54,386.28,7.20,24.22;3,24.54,366.28,7.20,18.00;3,24.54,348.28,7.20,16.00;3,24.54,242.50,7.20,103.78"><head></head><label></label><figDesc>International Scholarly and Scientific Research &amp; Innovation 10(3) 2016 scholar.waset.org/1307-6892/10004095 International Science Index, Mechanical and Mechatronics Engineering Vol:10, No:3, 2016 waset.org/Publication/10004095</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,205.00,36.54,185.51,7.20;4,190.30,46.54,214.62,7.20;4,266.50,56.54,62.22,7.20;4,297.00,815.54,12.00,7.20;4,47.00,815.54,233.30,7.20;4,350.00,815.54,127.10,7.20;4,24.54,601.12,7.20,40.88;4,24.54,574.24,7.20,24.88;4,24.54,552.02,7.20,20.22;4,24.54,512.70,7.20,37.32;4,24.54,499.15,7.20,11.55;4,24.54,453.61,7.20,43.54;4,24.54,412.50,7.20,39.10;4,24.54,386.28,7.20,24.22;4,24.54,366.28,7.20,18.00;4,24.54,348.28,7.20,16.00;4,24.54,242.50,7.20,103.78"><head>World</head><label></label><figDesc>Academy of Science, Engineering and Technology International Journal of Mechanical and Mechatronics Engineering Vol:10, No:3, 2016 611 International Scholarly and Scientific Research &amp; Innovation 10(3) 2016 scholar.waset.org/1307-6892/10004095 International Science Index, Mechanical and Mechatronics Engineering Vol:10, No:3, 2016 waset.org/Publication/10004095</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">International Scholarly and Scientific Research &amp; Innovation 10(3) 2016 scholar.waset.org/1307-6892/10004095 International Science Index, Mechanical and Mechatronics Engineering Vol:10, No:3, 2016 waset.org/Publication/10004095</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -8,6 +8,11 @@ packages = [{include = "practica_1"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+grobid-client = "^0.8.3"
+grobid-tei-xml = "^0.1.3"
+beautifulsoup4 = "^4.11.2"
+lxml = "^4.9.2"
+pandas = "^1.5.3"
 
 
 [build-system]
