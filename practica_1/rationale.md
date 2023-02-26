@@ -6,7 +6,7 @@ World Academy of Science, Engineering and Technology
 
 *Number of figures found:* 2
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -26,7 +26,7 @@ Venezuela
 
 *Number of figures found:* 7
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -44,7 +44,7 @@ factors
 
 *Number of figures found:* 0
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -63,7 +63,7 @@ Spain
 
 *Number of figures found:* 14
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -74,7 +74,7 @@ Spain
 
 *Number of figures found:* 3
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -85,7 +85,7 @@ Spain
 
 *Number of figures found:* 1
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -96,7 +96,7 @@ Spain
 
 *Number of figures found:* 12
 
-**Links found:**
+** 64 Links found:**
 
 - http://www.eaap.org/publications/eaap-scientific-series/
 - https://doi.org/10.1016/
@@ -173,7 +173,7 @@ Apple, Steve Jobs and iPhone
 
 *Number of figures found:* 2
 
-**Links found:**
+** 9 Links found:**
 
 - https://time.com/4628515/steve-jobs-iphone-launch-keynote-2007/
 - https://www.fool.com/investing/2018/01/25/apple-has-a-new-enterprise-partner.aspx
@@ -199,7 +199,7 @@ Assassination
 
 *Number of figures found:* 1
 
-**Links found:**
+** 0 Links found:**
 
 
 ---
@@ -218,7 +218,7 @@ Skyscraper
 
 *Number of figures found:* 6
 
-**Links found:**
+** 6 Links found:**
 
 - https://www.astroawani.com/berita-dunia/time-berbuka-puasa-di-burj-khalifa-berbeza-ikut-level-207345
 - https://esalah.com/places/united-arab-emirates/united-arab-emirates/dubai/masjids/burj-khalifa-mosque/
