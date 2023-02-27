@@ -1,20 +1,10 @@
-## For file: 1123626-Small-Engine.tei.xml
-
-Keywords:
-
-World Academy of Science, Engineering and Technology
-
-Number of figures found 2
-
-0 Links found:
-
-
+# For file: 1123626-Small-Engine.tei.xml
+### Keywords:
+World Academy of Science, Engineering and Technology### Number of figures found: 2
+### Links found (0):
 ---
-
-## For file: 160541-Rivers-Venezuela.tei.xml
-
-Keywords:
-
+# For file: 160541-Rivers-Venezuela.tei.xml
+### Keywords:
 
 Contamination
 surface water
@@ -22,82 +12,44 @@ estuarine zone
 Venezuela Agua superficial
 zona estuarina
 Venezuela
-
-
-Number of figures found 7
-
-0 Links found:
-
-
+### Number of figures found: 7
+### Links found (0):
 ---
-
-## For file: 3756278-Vietnam-war.tei.xml
-
-Keywords:
-
+# For file: 3756278-Vietnam-war.tei.xml
+### Keywords:
 
 Vietnam War
 Vietnam
 the United States
 factors
-
-
-Number of figures found 0
-
-0 Links found:
-
-
+### Number of figures found: 0
+### Links found (0):
 ---
-
-## For file: 3958006-Prosperity-Spain-Latin-America.tei.xml
-
-Keywords:
-
+# For file: 3958006-Prosperity-Spain-Latin-America.tei.xml
+### Keywords:
 
 Development
 Index
 Prosperity
 Latin America
 Spain
-
-
-Number of figures found 14
-
-0 Links found:
-
-
+### Number of figures found: 14
+### Links found (0):
 ---
-
-## For file: 4571632-Nanotechnology.tei.xml
-
-No keywords found.
-
-Number of figures found 3
-
-0 Links found:
-
-
+# For file: 4571632-Nanotechnology.tei.xml
+### No keywords found.
+### Number of figures found: 3
+### Links found (0):
 ---
-
-## For file: 4673057-European-food-safety.tei.xml
-
-No keywords found.
-
-Number of figures found 1
-
-0 Links found:
-
-
+# For file: 4673057-European-food-safety.tei.xml
+### No keywords found.
+### Number of figures found: 1
+### Links found (0):
 ---
-
-## For file: 4836450-Agriculture.tei.xml
-
-No keywords found.
-
-Number of figures found 12
-
-64 Links found:
-
+# For file: 4836450-Agriculture.tei.xml
+### No keywords found.
+### Number of figures found: 12
+### Links found (64):
 - http://www.eaap.org/publications/eaap-scientific-series/
 - https://doi.org/10.1016/
 - https://doi.org/10.1016/j.njas.2016.11.002
@@ -162,19 +114,11 @@ Number of figures found 12
 - https://doi.org/10.1016/j.smallrumres.2011.06.008
 - https://doi.org/10.1016/j.anireprosci.2008.05.079
 - https://doi.org/10.1016/j.agsy.2019.102645
-
 ---
-
-## For file: 6624395-Iphone.tei.xml
-
-Keywords:
-
-Apple, Steve Jobs and iPhone
-
-Number of figures found 2
-
-9 Links found:
-
+# For file: 6624395-Iphone.tei.xml
+### Keywords:
+Apple, Steve Jobs and iPhone### Number of figures found: 2
+### Links found (9):
 - https://time.com/4628515/steve-jobs-iphone-launch-keynote-2007/
 - https://www.fool.com/investing/2018/01/25/apple-has-a-new-enterprise-partner.aspx
 - https://www.mercurynews.com/2017/06/29/what-did-critics-say-about-the-iphone-in-2007/
@@ -184,48 +128,30 @@ Number of figures found 2
 - thttps://economictimes.indiatimes.com/markets/stocks/news/apples-change-in-distribution-strategy-a-concern-for-redington/articleshow/50749677.cms?from=mdr
 - https://www.cnbc.com/2019/12/16/apples-iphone-created-industries-and-changed-the-world-this-decade.html
 - https://www.statista.com/statistics/276306/global-apple-iphone-sales-since-fiscal-year-2007/
-
 ---
-
-## For file: 7258954-World-war-I.tei.xml
-
-Keywords:
-
+# For file: 7258954-World-war-I.tei.xml
+### Keywords:
 
 Imperialism Nationalism
 Militarism World War
 Assassination
-
-
-Number of figures found 1
-
-0 Links found:
-
-
+### Number of figures found: 1
+### Links found (0):
 ---
-
-## For file: 7664084-Burj-Khalifa.tei.xml
-
-Keywords:
-
+# For file: 7664084-Burj-Khalifa.tei.xml
+### Keywords:
 
 Time Zones
 Burj Khalifa
 Prayer Times
 Fasting
 Skyscraper
-
-
-Number of figures found 6
-
-6 Links found:
-
+### Number of figures found: 6
+### Links found (6):
 - https://www.astroawani.com/berita-dunia/time-berbuka-puasa-di-burj-khalifa-berbeza-ikut-level-207345
 - https://esalah.com/places/united-arab-emirates/united-arab-emirates/dubai/masjids/burj-khalifa-mosque/
 - https://www.wsj.com/articles/SB10001424052748703580904574638111667658806
 - https://www.thenationalnews.com/uae/fatwa-means-late-iftar-on-top-burj-khalifa-floors-1.432286
 - https://muftiwp.gov.my/en/perkhidmatan/artikel-soal-jawab/3858-bayan-linnas-khas-isu-tambahan-waktu-8-minit-bagi-permulaan-azan-subuh-dan-hukum-morning-prayer-sebelum-enter-time
 - https://www.thenationalnews.com/uae/mosque-in-burj-khalifa-an-urban-myth-1.418282
-
 ---
-

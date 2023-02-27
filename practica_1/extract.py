@@ -2,22 +2,39 @@ from bs4 import BeautifulSoup
 import os
 
 def get_keywords(soup):
-   return soup.find('keywords')
+    keywords = soup.find('keywords')
+    if keywords is not None:
+        return "### Keywords:\n" + keywords.text
+    else:
+        return "### No keywords found.\n"
 
 def get_figures(soup):
-   return soup.find_all('figure')
+    figures = soup.find_all('figure')
+    if figures is not None:
+        return "### Number of figures found: " + str(len(figures)) + "\n"
+    else:
+       return "### No figures found.\n\n"
+    
 
 def get_links(soup):
-   return soup.find_all("ptr")
+    links = soup.find_all("ptr")
+    res = ""
+    if str(len(links)) != 0:
+        res += "### Links found (" + str(len(links)) + "):\n"
+        for link in links:
+            res += "- " + link["target"] + "\n"
+    else:
+        res= "### No links found.\n"
+    return res
 
-directory_path = '../pdfs/output/'
+output_path = '../pdfs/output/'
 output_file = '../rationale.md'
 
 if os.path.exists(output_file):
     os.remove(output_file)
 
 with open(output_file, 'w') as file:
-    for root, dirs, files in os.walk(directory_path):
+    for root, dirs, files in os.walk(output_path):
         for file_name in files + dirs:
             file_path = os.path.join(root, file_name)
 
@@ -27,24 +44,11 @@ with open(output_file, 'w') as file:
                 figures = get_figures(soup)
                 links = get_links(soup)
 
-                file.write("## For file: " + str(file_path).removeprefix("../pdfs/output/") + "\n\n")
+                file.write("# For file: " + str(file_path).removeprefix("../pdfs/output/") + "\n")
                 
-                if keywords is not None:
-                    file.write("Keywords:\n\n" + keywords.text + "\n\n")
-                else:
-                    file.write("No keywords found.\n\n")
+                file.write(get_keywords(soup))
+                file.write(get_figures(soup))
 
-                if figures is not None:
-                    file.write("Number of figures found " + str(len(figures)) + "\n\n")
-                else:
-                    file.write("Number of figures found: 0\n\n")
+                file.write(get_links(soup))
 
-                if links is not None:
-                    file.write(str(len(links)) + " Links found:\n\n")
-                    for link in links:
-                        file.write("- " + link["target"] + "\n")
-                    file.write("\n")
-                else:
-                    file.write("No links found.\n\n")
-
-                file.write("---\n\n")
+                file.write("---\n")
