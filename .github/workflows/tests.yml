@@ -26,6 +26,10 @@ jobs:
     - name: Install Poetry
       run: |
         pip install poetry
+        
+    - name: Open poetry shell
+      run: |
+        poetry shell
 
     - name: Install project dependencies
       run: |
