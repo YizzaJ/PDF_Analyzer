@@ -30,6 +30,10 @@ jobs:
     - name: Install project dependencies
       run: |
         poetry install
+        
+    - name: Install pytest
+      run: |
+        pip install pytest
 
     - name: Run tests
       run: |
