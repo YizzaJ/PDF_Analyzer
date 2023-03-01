@@ -169,4 +169,9 @@ pip-wheel-metadata
 /poetry.toml
 
 poetry/core/*
+config.json
+poetry.lock
+pyproject.toml
+
+
 
