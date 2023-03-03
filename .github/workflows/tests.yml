@@ -19,21 +19,13 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Install Poetry
-      uses: dschep/install-poetry-action@v1.2
-
-    - name: Cache Poetry virtualenv
-      uses: actions/cache@v1
-      id: cache
-      with:
-        path: ~/.virtualenvs
-        key: poetry-$
-        restore-keys: |
-          poetry-$
-        
     - name: Install pytest
       run: |
         pip install pytest
+        
+    - name: Install dependencies
+      run: |
+        pip install --no-cache-dir -r requirements.txt
 
     - name: Run tests
       run: |
