@@ -1,7 +1,11 @@
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
+from grobid_client.grobid_client import GrobidClient
 import os
 
+def process_pdf():
+    client = GrobidClient(config_path="config.json")
+    client.process("processFulltextDocument", "/input", output="/output", consolidate_citations=True, tei_coordinates=True, force=True)
 
 def get_keywords(soup):
     keywords = soup.find('keywords')
@@ -30,11 +34,15 @@ def get_links(soup):
         res= "<h3>No links found.<h3>"
     return res
 
-output_path = '../pdfs/output/'
-output_file = '../analysis.html'
+output_path = '/output/'
+output_file = 'input/analysis.html'
+
+
 
 if os.path.exists(output_file):
     os.remove(output_file)
+
+process_pdf()
 
 num_figures = [] # list to store the number of figures for each file
 file_names = [] # list to store the name of each file
@@ -42,11 +50,12 @@ file_names = [] # list to store the name of each file
 with open(output_file, 'w') as file:
     for root, dirs, files in os.walk(output_path):
         for file_name in files + dirs:
+            
             file_path = os.path.join(root, file_name)
 
             with open(file_path, 'r', encoding="utf-8") as tei:
                 soup = BeautifulSoup(tei, 'xml')
-                file_display = str(file_path).removeprefix("../pdfs/output/").removesuffix(".tei.xml")
+                file_display = str(file_path).removeprefix("/output/").removesuffix(".tei.xml")
                 file.write("<h1> For file: " + file_display + "</h1>")
                 
                 file.write(get_keywords(soup))
@@ -57,11 +66,11 @@ with open(output_file, 'w') as file:
                 file.write("<hr></hr>")
 
     plt.figure()
-    plt.bar(num_figures, file_names,align='center') 
+    plt.bar(file_names,num_figures, align='center') 
     plt.xlabel('File names')
     plt.ylabel('Number of figures')
     plt.xticks(rotation=90)
-    plt.savefig('figures_histogram.png')
+    plt.savefig('input/figures_histogram.png')
 
     file.write("<h1>Number of Figures Histogram:</h1>")
     file.write("<img src=\"figures_histogram.png\">")

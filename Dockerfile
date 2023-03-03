@@ -1,8 +1,9 @@
 FROM python:3.9
 
-WORKDIR /app
+COPY . .
 
-COPY . /app
+RUN pip install --no-cache-dir -r requirements.txt
 
+RUN mkdir output
 
-CMD ["python", "practica_1/analyze.py"]
+CMD ["python", "extract.py"]
