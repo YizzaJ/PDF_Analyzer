@@ -33,20 +33,20 @@ def get_links(soup):
 if __name__ == "__main__":
 
     def check_structure():
-        if not os.path.exists("../input"):
+        if not os.path.exists("input"):
             print("Input directory does not exist.")
             return False
-        if not os.path.exists("../output"):
+        if not os.path.exists("output"):
             print("Output directory does not exist.")
             return False
         print("Directory structure is OK.")
         return True
 
     def check_output():
-        if not os.path.exists("../input/analysis.html"):
+        if not os.path.exists("input/analysis.html"):
             print("analysis.html file was not created.")
             return False
-        if not os.path.exists("../input/figures_histogram.png"):
+        if not os.path.exists("input/figures_histogram.png"):
             print("figures_histogram.png file was not created.")
             return False
         print("analisys.html file created on the input/ directory.")
