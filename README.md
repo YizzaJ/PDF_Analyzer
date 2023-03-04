@@ -1,5 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/pdf-analyzer/badge/?version=latest)](https://pdf-analyzer.readthedocs.io/en/latest/?badge=latest)
-      
+[![DOI](https://zenodo.org/badge/603493792.svg)](https://zenodo.org/badge/latestdoi/603493792)  
 # PDF_Analyzer
 
 PDF information extractor for the course of Artificial Intelligence And Open Science In Research Software Engineering.
