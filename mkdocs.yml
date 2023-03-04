@@ -1,4 +1,6 @@
-site_name: Documentation of PDF Analyzer
-
-nav:
-  - Home: index.md
+site_name: Documentation for PDF Analyzer
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - search
