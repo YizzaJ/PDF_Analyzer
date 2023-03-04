@@ -1,0 +1,46 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/MIT",
+    "codeRepository": "git+https://github.com/YizzaJ/PDF_Analyzer",
+    "contIntegration": "https://github.com/YizzaJ/PDF_Analyzer/actions/workflows/tests.yml",
+    "dateCreated": "2023-02-18",
+    "datePublished": "2023-03-04",
+    "dateModified": "2023-03-04",
+    "downloadUrl": "https://github.com/YizzaJ/PDF_Analyzer",
+    "issueTracker": "https://github.com/YizzaJ/PDF_Analyzer/issues",
+    "name": "PDF Analyzer",
+    "version": "1.0.0",
+    "description": "This proyects refers to a PDF extraction and parser using Grobit for the method of parsing the PDF and a python program to extract the desired information.",
+    "applicationCategory": "Parsing",
+    "developmentStatus": "active",
+    "referencePublication": "https://pdf-analyzer.readthedocs.io/en/latest/?badge=latest",
+    "keywords": [
+        "pdf",
+        "parsing",
+        "grobid",
+        "python"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "operatingSystem": [
+        "Windows",
+        "Linux"
+    ],
+    "relatedLink": [
+        "https://pdf-analyzer.readthedocs.io/en/latest/?badge=latest"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jesus",
+            "familyName": "Hernandez",
+            "email": "jesus.hernandezp@alumnos.upm.es",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Student"
+            }
+        }
+    ]
+}
