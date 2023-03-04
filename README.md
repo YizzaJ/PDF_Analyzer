@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/pdf-analyzer/badge/?version=latest)](https://pdf-analyzer.readthedocs.io/en/latest/?badge=latest)
+      
 # PDF_Analyzer
 
 PDF information extractor for the course of Artificial Intelligence And Open Science In Research Software Engineering.
