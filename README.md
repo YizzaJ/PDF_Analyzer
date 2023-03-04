@@ -58,7 +58,7 @@ To run this program you will need:
    If you are running this program on a Linux based OS use this code:
 
    ```bash
-   docker run --rm -it -v ~/input/:/input --network=host --name=PDFanalyzer analyzer
+   docker run --rm -it -v $(pwd)/input/:/input --network=host --name=PDFanalyzer analyzer
    ```
 
    Notes: `analyzer` was the name of the image in the example, if you changed it when building the image use the  name you chose. `PDFanalyzer` will be the name of the container,you can choose what you like.
