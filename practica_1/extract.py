@@ -26,7 +26,7 @@ def get_links(soup):
     for ptr in ptrs:
         links.append(ptr["target"])
 
-    link_pattern = re.compile(r"https?://\S+")
+    link_pattern = re.compile(r"(?:(?:https?://|www\.)\S+|\(https?://\S+\))")
     paragraphs = soup.find_all("p")
     for p in paragraphs:
         link_paragraphs = link_pattern.findall(p.text)
