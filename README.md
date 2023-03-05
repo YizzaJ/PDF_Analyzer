@@ -76,7 +76,7 @@ To run this program you will need:
    And inside the input directory previously created, an *analisys.html* file will be created with the desired information. Also a *figures_histogram.png* file will be created with the image of the number of figures histogram.
 8. If you want to run it again just repeat step 6.
 
-   **IMPORTANT**: the previous *analisys.html* and *igures_histogram.png* will be deleted.
+   **IMPORTANT**: the previous *analisys.html* and *figures_histogram.png* will be deleted.
 
 ## Example
 
