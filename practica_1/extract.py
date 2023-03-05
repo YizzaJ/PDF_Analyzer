@@ -31,7 +31,6 @@ def get_links(soup):
     for p in paragraphs:
         link_paragraphs = link_pattern.findall(p.text)
         for link in link_paragraphs:
-            print(link)
             links.append(link)
     res = ""
     if str(len(links)) != 0:
