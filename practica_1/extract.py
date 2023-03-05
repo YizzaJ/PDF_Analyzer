@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
+import re
 import os
 
 
@@ -19,12 +20,24 @@ def get_figures(soup):
     
 
 def get_links(soup):
-    links = soup.find_all("ptr")
+    ptrs = soup.find_all("ptr")
+
+    links = []
+    for ptr in ptrs:
+        links.append(ptr["target"])
+
+    link_pattern = re.compile(r"https?://\S+")
+    paragraphs = soup.find_all("p")
+    for p in paragraphs:
+        link_paragraphs = link_pattern.findall(p.text)
+        for link in link_paragraphs:
+            print(link)
+            links.append(link)
     res = ""
     if str(len(links)) != 0:
         res += "<h3>Links found (" + str(len(links)) + "):<h3><ul>"
         for link in links:
-            res += "<li style=\"font-size:18px\"><a href=\"" + link["target"] + "\">" + link["target"] + "</a></li>"
+            res += "<li style=\"font-size:18px\"><a href=\"" + link + "\">" + link + "</a></li>"
         res += "</ul>"
     else:
         res= "<h3>No links found.<h3>"
@@ -33,10 +46,10 @@ def get_links(soup):
 if __name__ == "__main__":
 
     def check_structure():
-        if not os.path.exists("input"):
+        if not os.path.exists("./input"):
             print("Input directory does not exist.")
             return False
-        if not os.path.exists("output"):
+        if not os.path.exists("./output"):
             print("Output directory does not exist.")
             return False
         print("Directory structure is OK.")

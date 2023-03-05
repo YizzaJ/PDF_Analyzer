@@ -38,3 +38,21 @@ def test_get_links():
 def test_get_no_links(): 
     soup = get_xml("test1.xml")
     assert get_links(soup) == ("<h3>Links found (0):<h3><ul></ul>")
+
+# Test that should show the links in the xml inside paragraphs.
+def test_get_links_paragraphs(): 
+    soup = get_xml("test4.xml")
+    assert get_links(soup) == ("<h3>Links found (3):<h3><ul><li style=\"font-size:18px\">" +
+                               "<a href=\"http://www.link1.com\">http://www.link1.com</a></li>" +
+                               "<li style=\"font-size:18px\"><a href=\"http://www.link2.com\">http://www.link2.com</a>" +
+                               "</li><li style=\"font-size:18px\"><a href=\"http://www.link3.com\">http://www.link3.com</a></li></ul>")
+
+# Test that should show the links in the xml inside paragraphs and ptrs.
+def test_get_links_paragraphs_ptrs(): 
+    soup = get_xml("test5.xml")
+    assert get_links(soup) == ("<h3>Links found (4):<h3><ul>"+
+                               "<li style=\"font-size:18px\"><a href=\"http://www.link1.com\">http://www.link1.com</a></li>" +
+                               "<li style=\"font-size:18px\"><a href=\"http://www.link2.com\">http://www.link2.com</a></li>" +
+                               "<li style=\"font-size:18px\"><a href=\"http://www.link3.com\">http://www.link3.com</a></li>"+
+                               "<li style=\"font-size:18px\"><a href=\"http://www.link4.com\">http://www.link4.com</a></li>"+
+                               "</ul>")

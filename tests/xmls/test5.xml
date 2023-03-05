@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+    <ptr target="http://www.link1.com" />
+    <p> http://www.link3.com Text about anything </p>
+    <ptr target="http://www.link2.com" />
+    <p> Text about anything  http://www.link4.com Text about anything </p>
+</div>
